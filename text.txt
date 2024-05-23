@@ -1,1 +1,5 @@
-hello world
+git init
+git remote add origin https://github.com/Aaron-Thomas-Blessen/text.git
+git add .
+git commit -m "text added"
+git push origin main
