@@ -21,3 +21,13 @@ Pushed all changes made in local comp to branch Aaron in Repository
 #Now we need to pull the changes made in main branch to branch Aaron
 git pull origin main      #Added/Pushes the changes made in main branch to Aaron Branch
 
+
+
+
+
+Made a new folder 'Alan' on desktop or anywhere
+
+ C:\Users\Aaron\Desktop\Alan> git clone https://github.com/Aaron-Thomas-Blessen/text.git            #This  copies all files and file contents of Main branch of the repo to the folder Alan and adds the '.git' file all by itself. No need for git init, git add . , git commit -m "add text" etc. These commands are required if we make a new file or make changes to an existing one and want to add it to main branch or any other branch.
+
+ C:\Users\Aaron\Desktop\Alan> git clone -b Aaron https://github.com/Aaron-Thomas-Blessen/text.git     #This  copies all files and file contents of  Aaron branch of the repo to the folder Alan and adds the '.git' file all by itself. Its same as above my clones Aaron;s branch.
+
