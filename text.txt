@@ -1,5 +1,19 @@
-git init
-git remote add origin https://github.com/Aaron-Thomas-Blessen/text.git
-git add .
-git commit -m "text added"
-git push origin main
+git init                    #adds a new git file '.git'  to local computer. This file holds all contents of git.
+git remote add origin https://github.com/Aaron-Thomas-Blessen/text.git            #choosing repo for performing operations
+git add .                   #Selects all files to be added
+git commit -m "text added"                     #Confirms the selected files to be added to git repo main branch
+git push origin main                                #Adds/Pushes the changes to git main branch
+
+git branch Aaron           #new branch 'Aaron' added to the repo in GitHub and contents of main branch added to new branch Aaron
+git checkout Aaron          #Switched to new branch Aaron. Now any changes to file will reflect in branch Aaron and  not in main branch
+#made changes in text file
+
+git add .                                                        #Selected all files in Branch Aaron's local computer where changes are made
+git commit -m "new text added"                    #confirms selected files
+git push origin Aaron           #Added/Pushes the changes to Aaron Branch
+
+
+Pushed all changes made in local comp to branch Aaron in Repository
+#Pull Request to make the changes in Aaron to be added or merged to main branch, so both contents get added.
+~Go to Git Repository Click Pull Requests, add a pull request and select path to pull Eg: Aaron branch  to Main branch
+
